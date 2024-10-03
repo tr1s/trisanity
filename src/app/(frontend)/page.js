@@ -8,6 +8,7 @@ import styles from './page.module.scss';
 
 import SectionWrapper from '@/components/SectionWrapper';
 import Project from '@/components/Project';
+import Link from 'next/link';
 
 const projects = [
 	{
@@ -42,6 +43,9 @@ export default function Home() {
 					I build fast, accessible, beautiful websites—email me and let’s see if I can help solve
 					your web needs.
 				</p>
+				<br />
+				<Link href="/posts">Posts index &rarr;</Link>
+				<Link href="/projects">Projects index &rarr;</Link>
 			</div>
 			<div className={styles.projectsWrapper}>
 				{projects.map((project) => (
