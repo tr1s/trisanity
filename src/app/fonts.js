@@ -5,23 +5,6 @@
  */
 
 import localFont from 'next/font/local';
-import { Roboto, Playfair_Display } from 'next/font/google';
-
-export const roboto = Roboto({
-	variable: '--font-roboto',
-	weight: ['300'],
-	style: ['normal'],
-	subsets: ['latin'],
-	display: 'swap',
-});
-
-export const playfair_display = Playfair_Display({
-	variable: '--font-playfair-display',
-	weight: ['900'],
-	style: ['normal'],
-	subsets: ['latin'],
-	display: 'swap',
-});
 
 export const GTFAdieu = localFont({
 	variable: '--font-GTFAdieu',
