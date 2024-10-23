@@ -17,7 +17,7 @@ export default function Project({ id, title, builtWith, url, cover, domain, tld,
 			<span className={styles.id}>{id}</span>
 			<div className={styles.cover}>
 				<figure>
-					<Image src={cover} alt={title} width={400} height={400} />
+					<Image src={cover} alt="{title}" width={400} height={400} />
 				</figure>
 				<button>More info</button>
 			</div>
