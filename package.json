@@ -30,12 +30,5 @@
 		"eslint": "^9.14.0",
 		"eslint-config-next": "15.0.2",
 		"typescript": "^5.6.3"
-	},
-	"packageManager": "npm@10.8.3",
-	"overrides": {
-		"react": "$react",
-		"react-dom": "$react-dom",
-		"@types/react": "npm:types-react@19.0.0-rc.1",
-		"@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
 	}
 }
