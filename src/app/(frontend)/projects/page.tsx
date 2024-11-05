@@ -1,11 +1,9 @@
 import Link from 'next/link';
-import { client } from '@/sanity/lib/client';
+import { sanityFetch } from '@/sanity/lib/live';
 import { PROJECTS_QUERY } from '@/sanity/lib/queries';
 
-const options = { next: { revalidate: 60 } };
-
 export default async function Page() {
-	const projects = await client.fetch(PROJECTS_QUERY, {}, options);
+	const { data: projects } = await sanityFetch({ query: PROJECTS_QUERY });
 
 	return (
 		<main>
