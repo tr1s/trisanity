@@ -21,13 +21,13 @@
 		"react": "19.0.0-rc-02c0e824-20241028",
 		"react-dom": "19.0.0-rc-02c0e824-20241028",
 		"sanity": "^3.62.3",
-		"sass": "^1.80.5"
+		"sass": "^1.80.6"
 	},
 	"devDependencies": {
-		"@types/node": "^22.8.6",
+		"@types/node": "^22.9.0",
 		"@types/react": "npm:types-react@19.0.0-rc.1",
 		"@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
-		"eslint": "^9.13.0",
+		"eslint": "^9.14.0",
 		"eslint-config-next": "15.0.2",
 		"typescript": "^5.6.3"
 	},
