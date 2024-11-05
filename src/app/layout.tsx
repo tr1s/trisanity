@@ -1,4 +1,11 @@
+/*
+ * Default layout component for app/.
+ * ------------------------------------------------------------------------------
+ *
+ */
+
 import type { Metadata } from 'next';
+import { GTFAdieu, GTFAdieu_Slanted, GTFAdieu_Backslant, Source_Sans_3 } from './fonts';
 
 export const metadata: Metadata = {
 	title: 'Create Next App',
@@ -7,7 +14,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
 	return (
-		<html lang="en">
+		<html
+			lang="en"
+			className={`
+      ${GTFAdieu.variable}
+      ${GTFAdieu_Slanted.variable}
+      ${GTFAdieu_Backslant.variable}
+      ${Source_Sans_3.variable}
+    `}
+		>
 			<body>{children}</body>
 		</html>
 	);
