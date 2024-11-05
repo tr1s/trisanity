@@ -14,13 +14,13 @@
 	"dependencies": {
 		"@sanity/icons": "^3.4.0",
 		"@sanity/image-url": "^1.1.0",
-		"@sanity/vision": "^3.62.3",
+		"@sanity/vision": "^3.63.0",
 		"clsx": "^2.1.1",
 		"next": "15.0.2",
 		"next-sanity": "^9.8.8",
 		"react": "19.0.0-rc-02c0e824-20241028",
 		"react-dom": "19.0.0-rc-02c0e824-20241028",
-		"sanity": "^3.62.3",
+		"sanity": "^3.63.0",
 		"sass": "^1.80.6"
 	},
 	"devDependencies": {
@@ -30,5 +30,12 @@
 		"eslint": "^9.14.0",
 		"eslint-config-next": "15.0.2",
 		"typescript": "^5.6.3"
+	},
+	"packageManager": "npm@10.9.0",
+	"overrides": {
+		"react": "$react",
+		"react-dom": "$react-dom",
+		"@types/react": "npm:types-react@19.0.0-rc.1",
+		"@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
 	}
 }
