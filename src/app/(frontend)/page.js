@@ -40,8 +40,8 @@ export default function Home() {
 		<SectionWrapper>
 			<div className={styles.intro}>
 				<p>
-					I build fast, accessible, beautiful websites—email me and let’s see if I can help solve
-					your web needs.
+					I build fast, accessible, and beautiful websites—email me and let’s see if I can help
+					solve your web needs.
 				</p>
 				<br />
 				<Link href="/posts">Posts index &rarr;</Link>
