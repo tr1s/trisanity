@@ -16,8 +16,9 @@ export default function renderMarkdownAndHTML(markdownText) {
 			components={{
 				p: React.Fragment,
 			}}
-			children={markdownText}
 			rehypePlugins={[rehypeRaw, rehypeSanitize]}
-		/>
+		>
+			{markdownText}
+		</ReactMarkdown>
 	);
 }
